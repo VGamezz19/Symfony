@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends '::base.html.twig' %}
+
+{% block title %}{{ parent() }} Home{% endblock %} <!-- Va por bloques,
+                                                     se refiere a ls bloques de la base.html.twig -->
+{% block body %}
     <ul>
         <li> <a href="{{ path('app_calculator_index') }}"> Inicio </a></li>
     </ul>
-</body>
-</html>
+{% endblock %}
