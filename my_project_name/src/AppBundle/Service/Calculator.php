@@ -5,10 +5,7 @@
  * Date: 28/10/2016
  * Time: 17:27
  */
-
 namespace AppBundle\Service;
-
-
 class Calculator
 {
     /**
@@ -23,7 +20,6 @@ class Calculator
      * @var int
      */
     private $res;
-
     public function __construct($op1 = null, $op2 = null, $res = null)
     {
         $this
@@ -31,7 +27,6 @@ class Calculator
             ->setOp2($op2)
             ->setRes($res);
     }
-
     /**
      * @return int
      */
@@ -39,7 +34,6 @@ class Calculator
     {
         return $this->op2;
     }
-
     /**
      * @param int $op1
      * @return $this
@@ -47,21 +41,17 @@ class Calculator
     public function setOp1($op1)
     {
         $this->op1 = (int) $op1;
-
         return $this;
     }
-
     /**
      * @param int $op2
-      * @return $this
+     * @return $this
      */
     public function setOp2($op2)
     {
         $this->op2 = (int) $op2;
-
         return $this;
     }
-
     /**
      * @return int
      */
@@ -69,7 +59,6 @@ class Calculator
     {
         return $this->op1;
     }
-
     /**
      * @return int
      */
@@ -77,7 +66,6 @@ class Calculator
     {
         return $this->res;
     }
-
     /**
      * @param int $res
      * @return $this
@@ -85,16 +73,10 @@ class Calculator
     public function setRes($res)
     {
         $this->res = (int) $res;
-
         return $this;
     }
-
-
     public function sum()
     {
         $this->setRes($this->getOp1()+ $this->getOp2());
-
     }
-
-
 }
