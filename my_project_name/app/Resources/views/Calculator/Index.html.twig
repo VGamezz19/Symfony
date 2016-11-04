@@ -1,9 +1,9 @@
 {% extends '::base.html.twig' %}
 
-{% block title %}{{ parent() }} Home{% endblock %} <!-- Va por bloques,
-                                                     se refiere a ls bloques de la base.html.twig -->
+{% block title %}{{ parent() }} Home{% endblock %}
 {% block body %}
     <ul>
-        <li> <a href="{{ path('app_calculator_index') }}"> Inicio </a></li>
+        <li> <a href="{{ path('app_calculator_sum') }}"> Inicio </a></li>
     </ul>
+    <!-- Va por bloques, se refiere a ls bloques de la base.html.twig -->
 {% endblock %}
