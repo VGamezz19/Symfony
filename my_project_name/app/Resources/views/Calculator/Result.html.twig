@@ -1,0 +1,17 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}{{ parent() }}Result{% endblock %}
+{% block body %}
+
+    <link rel="stylesheet" href="{{ asset('css/Calculator_viwes.css') }}" />
+
+
+
+
+    <h1 id="Titulo">{{ titulo }}</h1>
+    <div class ="Cuerpo">  {{ op1 }} {{ operacion }} {{ op2 }} = {{ result }}</div>
+
+    <div class="gif" align="center">
+        <img src="{{ asset('img/putoAmo2.gif') }}" />
+    </div>
+{% endblock %}
