@@ -79,4 +79,9 @@ class Calculator
     {
         $this->setRes($this->getOp1()+ $this->getOp2());
     }
+
+    public function res()
+    {
+        $this->setRes($this->getOp1()- $this->getOp2());
+    }
 }

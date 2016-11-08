@@ -56,4 +56,45 @@ class CalculatorController extends Controller
                 'operacion' => "+"
             ]);
     }
+
+    /**
+     * @Route("/resta", name="app_calculator_res")
+     *
+     */
+    public function resAction($num1, $num2)
+    {
+        /*  */
+
+        return $this->render(':Calculator:Form.html.twig' ,
+            [
+                'action' => 'app_calculator_doRes'
+            ]);
+
+    }
+
+    /**
+     * @Route("/duRes", name="app_calculator_doRes")
+     *
+     */
+    public function doRes(Request $request)
+    {
+        /*$num1= $_POST['op1'];*/
+        $num1= $request->request->get('op1');
+
+        /*$num2= $_POST['op2'];*/
+        $num2= $request->request->get('op2');
+
+        $n1 =  new Calculator($num1, $num2);
+        $n1->res();
+        $result = $n1->getRes();
+
+        return $this->render(':Calculator:Result.html.twig',
+            [
+                'titulo'    => "Resta",
+                'result'    => $result,
+                'op1'       => $num1,
+                'op2'       => $num2,
+                'operacion' => "-"
+            ]);
+    }
 }
