@@ -61,7 +61,7 @@ class CalculatorController extends Controller
      * @Route("/resta", name="app_calculator_res")
      *
      */
-    public function resAction($num1, $num2)
+    public function resAction()
     {
         /*  */
 
