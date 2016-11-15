@@ -14,7 +14,7 @@ class DefaultController extends Controller
         return new Response('Hello'. $name);
     }
     /**
-     * @Route("prueba1", name="app_defauld_pruebaVista")
+     * @Route("/prueba1", name="app_defauld_pruebaVista")
      */
     public function indexpeneAction()
     {
