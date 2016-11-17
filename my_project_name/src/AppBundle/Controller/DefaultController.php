@@ -7,11 +7,11 @@ use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/name/{name}", name="App_Index_Defauld")
+     * @Route("/", name="App_Index_Aplicaciones")
      */
-    public function indexAction($name)
+    public function indexAction()
     {
-        return new Response('Hello'. $name);
+        return $this->render('Index.html.twig');
     }
     /**
      * @Route("/prueba1", name="app_defauld_pruebaVista")

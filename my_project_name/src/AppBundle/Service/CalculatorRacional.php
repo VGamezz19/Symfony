@@ -22,13 +22,21 @@ class CalculatorRacional
     /**
      * @var int
      */
-    private $res;
-    public function __construct($op1 = null, $op2 = null, $res = null, $op3 = null, $op4 = null)
+    private $res1;
+
+    /**
+     * @var int
+     */
+    private $res2;
+
+
+    public function __construct($op1 = null, $op2 = null, $op3 = null, $op4 = null, $res1 = null, $res2 = null)
     {
         $this
             ->setOp1($op1)
             ->setOp2($op2)
-            ->setRes($res)
+            ->setRes1($res1)
+            ->setRes2($res2)
             ->setOp3($op3)
             ->setOp4($op4);
     }
@@ -103,28 +111,42 @@ class CalculatorRacional
     /**
      * @return int
      */
-    public function getRes()
+    public function getRes1()
     {
-        return $this->res;
+        return $this->res1;
     }
     /**
      * @param int $res
      * @return $this
      */
-    public function setRes($res)
+    public function setRes1($res)
     {
-        $this->res = (int) $res;
+        $this->res1 = (int) $res;
+        return $this;
+    }
+    public function getRes2()
+    {
+        return $this->res2;
+    }
+    /**
+     * @param int $res
+     * @return $this
+     */
+    public function setRes2($res)
+    {
+        $this->res2 = (int) $res;
         return $this;
     }
     public function sum()
     {
-        $n = new Racional($this->setRes($this->getOp1()+ $this->getOp2()), $this->setRes($this->getOp3()+ $this->getOp4()));
+        $this->setRes1($this->getOp1()+ $this->getOp3());
+        $this->setRes2($this->getOp2()+ $this->getOp4());
+
+        $n = new Racional($this->getRes1(), $this->getRes2());
+
 
         return $n;
     }
 
-    public function res()
-    {
-        $this->setRes($this->getOp1()- $this->getOp2());
-    }
+
 }

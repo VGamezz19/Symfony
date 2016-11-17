@@ -11,18 +11,29 @@ namespace AppBundle\Service;
 
 class Racional
 {
+    /**
+     * @var int
+     */
     private $op1;
+    /**
+     * @var int
+     */
     private $op2;
-    public function __construct($op1 , $op2 )
-    {
-        $this
-            ->setOp1($op1)
-            ->setOp2($op2);
-
-    }
 
     /**
-     * @return mixed
+     * Racional constructor.
+     * @param $op1
+     * @param $op2
+     */
+    public function __construct($op1, $op2)
+    {
+        $this->op1 = $op1;
+        $this->op2 = $op2;
+    }
+
+
+    /**
+     * @return int
      */
     public function getOp1()
     {
@@ -38,7 +49,7 @@ class Racional
     }
 
     /**
-     * @return mixed
+     * @return int
      */
     public function getOp2()
     {
@@ -51,6 +62,18 @@ class Racional
     public function setOp2($op2)
     {
         $this->op2 = $op2;
+    }
+
+
+    /*public function setOp2($op2)
+    {
+        $this->op2 = $op2;
+    } */
+
+
+    public function __toString()
+    {
+     return $this-> getOp2()."hola";
     }
 
 }
