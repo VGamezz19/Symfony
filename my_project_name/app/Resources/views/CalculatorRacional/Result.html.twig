@@ -5,14 +5,26 @@
 
     <link rel="stylesheet" href="{{ asset('css/Calculator_viwes.css') }}" />
 
-
-
-
     <h1 id="Titulo">{{ titulo }}  <a href="{{ path('app_calculatorRacional_index') }}"> Index </a> </h1>
     <div class ="Cuerpo">
-        {{ op1 }} {{ " / " }} {{ op2 }} {{ operacion }} {{ op3 }} {{ " / " }} {{ op4 }} = {{ RacionalResult1 }} {{ " / " }} {{ RacionalResult2 }}
+        <table style="margin-left: 45%;">
+            <tr>
+                <th style=padding-right:25px;>{{ op1 }} </th>
+                <th style=padding-right:25px;>{{ op3 }}</th>
+                <th>{{ RacionalResult1 }}</th>
+            </tr>
+            <tr>
+                <th> ----  {{ operacion }}  </th>
+                <th>----  = </th>
+                <th>----</th>
+            </tr>
+            <tr>
+                <th style=padding-right:25px;>{{ op2 }} </th>
+                <th style=padding-right:25px;>{{ op4 }}</th>
+                <th>{{ RacionalResult2 }}</th>
+            </tr>
+        </table>
     </div>
-
     <div class="gif" align="center">
         <img src="{{ asset('img/putoAmo3.gif') }}" />
     </div>

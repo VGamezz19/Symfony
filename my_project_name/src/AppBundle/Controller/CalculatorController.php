@@ -20,7 +20,7 @@ class CalculatorController extends Controller
      * @Route("/suma", name="app_calculator_sum")
      *
      */
-    public function sumAction($num1, $num2)
+    public function sumAction()
     {
        /*  */
 
@@ -36,23 +36,28 @@ class CalculatorController extends Controller
      *
      */
     public function doSum(Request $request)
-    {
-        /*$num1= $_POST['op1'];*/
+    { /*
+        -- $num1= $_POST['op1'];
         $num1= $request->request->get('op1');
 
-        /*$num2= $_POST['op2'];*/
+        -- $num2= $_POST['op2'];
         $num2= $request->request->get('op2');
 
         $n1 =  new Calculator($num1, $num2);
         $n1->sum();
-        $result = $n1->getRes();
+        $result = $n1->getRes(); */
+
+        $n1 = $this->get('Calculator');
+        $n1->setOp1($request->request->get('op1'));
+        $n1->setOp2( $request->request->get('op2'));
+        $n1->sum();
 
         return $this->render(':Calculator:Result.html.twig',
             [
                 'titulo'    => "Suma",
-                'result'    => $result,
-                'op1'       => $num1,
-                'op2'       => $num2,
+                'result'    => $n1->getRes(),
+                'op1'       => $n1->getOp1(),
+                'op2'       => $n1->getOp2(),
                 'operacion' => "+"
             ]);
     }
