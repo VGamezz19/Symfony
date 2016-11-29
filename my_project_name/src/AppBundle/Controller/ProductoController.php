@@ -6,6 +6,7 @@ use AppBundle\Entity\Product;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\Validator\Constraints\DateTime;
 
 class ProductoController extends Controller
 {
@@ -16,45 +17,7 @@ class ProductoController extends Controller
     public function indexAction()
     {
         $m = $this->getDoctrine()->getManager();
-
         $report = $m->getRepository('AppBundle:Product');
-        //esto es para poder hacer sentencias sql
-        //el objeto que necesitamos para hacer consultas
-
-       /*  $p = new Product();
-        $p
-            ->setName('Meizu MX5')
-            ->setDescription('Chino con cierta garancia')
-            ->setPrice('300');
-        $m->persist($p); */
-        //$m->flush();
-
-        //$p = $report->find(1); //por la ID del producto
-        //$p = $report->findOneBy([
-         //   'name' => 'Meizu MX5',
-        //]);
-        // busca solo UNO (find ONE BY) y ponemos la condicion
-
-
-
-        //Esto es para recoger un dato de la base de datos
-        //y modifica el precio del objeto con la id = 1
-       /* $p = $report->find(1);
-
-        $p->setPrice('1100');
-        $p->setDescription('Blanck Friday -Que nos lo quitan de las manos');
-
-        $m->flush(); */
-
-       $p1 = $report->findOneBy([
-           'name' => 'Meizu MX5'
-
-       ]);
-
-        $m->remove($p1);
-
-        $m->flush();
-        
         $products = $report->findAll();
 
 
@@ -62,5 +25,112 @@ class ProductoController extends Controller
             [
                 'productos' => $products, //le vamos a pasar un array
             ]);
+    }
+
+    /**
+     *
+     * @Route("/update/{id}", name="app_product_update")
+     *
+     */
+    public function updateAction(Request $request,$id)
+    {
+        $m = $this->getDoctrine()->getManager();
+        $report = $m->getRepository('AppBundle:Product');
+
+        $p = $report->find($id);
+
+
+        return $this->render('Producto/update.html.twig' ,
+            [
+                'action' => 'app_producto_updateAction',
+                'producto' => $p,
+            ]);
+
+    }
+
+    /**
+     * @Route("/updateAction/{id}", name="app_producto_updateAction")
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
+    public function doUpdateAction(Request $request, $id)
+    {
+        $m = $this->getDoctrine()->getManager();
+        $report = $m->getRepository('AppBundle:Product');
+
+        $p = $report->find($id);
+        $p
+            ->setName($request->request->get('name'))
+            ->setDescription( $request->request->get('description'))
+            ->setPrice($request->request->get('price'))
+            ->setUpdatedAt(new \DateTime());
+
+        $m->persist($p);
+        $m->flush();
+        $products = $report->findAll();
+        return $this->render('Producto/index.html.twig',
+            [
+                'productos' => $products, //le vamos a pasar un array
+            ]);
+    }
+
+    /**
+     * @Route("/delete/{id}", name="app_product_delete")
+     *
+     */
+
+    public function deleteAction (Request $request, $id) {
+        $m = $this->getDoctrine()->getManager();
+        $report = $m->getRepository('AppBundle:Product');
+
+        $p = $report->find($id);
+
+        $m->remove($p);
+        $m->flush();
+
+        $products = $report->findAll();
+        return $this->render('Producto/index.html.twig',
+            [
+                'productos' => $products, //le vamos a pasar un array
+            ]);
+    }
+
+    /**
+     * @Route("/create", name="app_product_create")
+     *
+     */
+
+    public function createAction () {
+        return $this->render('Producto/create.html.twig',
+            [
+                'action' => "app_product_createAction",
+            ]);
+    }
+
+    /**
+     * @Route("/createAction/", name="app_product_createAction")
+     *
+     */
+
+    public function doCreateAction (Request $request){
+        $m = $this->getDoctrine()->getManager();
+        $report = $m->getRepository('AppBundle:Product');
+
+        $p = new Product();
+
+        $p
+            ->setName($request->request->get('name'))
+            ->setDescription( $request->request->get('description'))
+            ->setPrice($request->request->get('price'));
+
+        $m->persist($p);
+        $m->flush();
+
+        $products = $report->findAll();
+        return $this->render('Producto/index.html.twig',
+            [
+                'productos' => $products, //le vamos a pasar un array
+            ]);
+
+
     }
 }

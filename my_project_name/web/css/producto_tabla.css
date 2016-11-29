@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+thead {
+    background-color: #002E6D;
+    color:#fff;
+    border: 1px solid black;
+}
+
+tbody{
+    background-color: rgba(108,97,89,0.70);
+    color:#fff;
+    border: 1px solid black;
+}
+
+#imagen {
+    float: right;
+    margin-top: 10px;
+    margin-right:33%;
+}
+
+#boton {
+    margin-top: 60px;
+    margin-left: 170px;
+}

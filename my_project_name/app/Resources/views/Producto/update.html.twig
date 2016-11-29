@@ -1,0 +1,15 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}{{ parent() }} Form{% endblock %}
+{% block body %}
+    <form action="{{ path(action,  {'id': producto.id}) }}" method="post">
+
+        name <input type="text" name="name" placeholder="{{ producto.name }}"><br>
+        descripcion <input type="text" name="description" placeholder="{{ producto.description }}"> <br>
+        precio<input type="number" name="price" placeholder="{{ producto.price }}€"><br>
+        {{ producto.createdAt|date("d/m/y H:i:s") }} <br>
+        {{ producto.updatedAt|date("d/m/y H:i:s") }} <br>
+        numero ID del producto {{ producto.id }}
+        <input type="submit" value="Update Producto">
+    </form>
+{% endblock %}
