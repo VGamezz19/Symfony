@@ -24,11 +24,6 @@ class Product
 
     /**
      * @var string
-     * @Assert\Length(
-     *     min="2"
-     *     max="10"
-     * @Assert\NotBlank(message="Name cannot be empty")
-     * )
      * @ORM\Column(name="name", type="string", length=255, unique=true)
      */
     private $name;
@@ -63,8 +58,8 @@ class Product
 
     /**
      * Product constructor.
-     * @param \DateTime $createdAt
-     * @param \DateTime $updatedAt
+     * @internal param \DateTime $updatedAt
+     *
      */
     public function __construct()
     {
