@@ -15,20 +15,19 @@ class ProductType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('name', TextType::class)
-            ->add('description', TextType::class)
-            ->add('price')
-            ->add('Enviar', SubmitType::class);
+            ->add('name', TextType::class, ['error_bubbling' => true])
+            ->add('description', TextType::class, ['error_bubbling' => true])
+            ->add('price', IntegerType::class, ['error_bubbling' => true]);
+            //->add('Enviar', SubmitType::class); Para añadir un boton. Pero lo generaremos en el Form
 
-        var_dump($twig->render('new.html.twig', array(
-            'form' => $builder->createView())));
+
 
     }
 
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
-            'data_class' => Product::class
+            'data_class' => 'AppBundle\Entity\Product'
         ]);
     }
 
