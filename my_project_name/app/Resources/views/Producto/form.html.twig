@@ -3,6 +3,8 @@
 {% block title %}{{ parent() }} Form{% endblock %}
 {% block body %}
     <!-- http://stackoverflow.com/questions/18848870/how-to-display-all-form-error-at-one-place -->
+    <link rel="stylesheet" href="{{ asset('css/producto_tabla.css') }}" />
+
     <div>
        <form method="post" action="{{ action }}" novalidate="novalidate">
            <div>
@@ -22,9 +24,13 @@
 
            <div><input type="button" value="Confirmar"></div>
 
+
+
            <button value="CREATE" id="boton">
-               <h1>CREATE</h1>
+               <h1>Confirmar</h1>
            </button>
+
+           <img id = "imagen"src="{{ asset(gif) }}" />
        </form>
     </div>
 {% endblock %}

@@ -8,12 +8,13 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Component\Validator\Constraints\DateTime;
 
 class ProductoController extends Controller
 {
 
-    public $count = 0;
+
 
     /**
      * @Route("/", name="app_producto_index")
@@ -21,31 +22,28 @@ class ProductoController extends Controller
      */
 
 
+
     public function indexAction()
     {
-        //GIFF
-            $gif = '';
-        //
+        $sesion = new Session();
+
+        //$sesion -> start();
+        //$sesion ->get('gif', '');
+
+       // $sesion->getFlashBag()->get('gif')
+
+       $gifRedirect = $sesion->get('gif');
+
         $m = $this->getDoctrine()->getManager();
         $report = $m->getRepository('AppBundle:Product');
         $products = $report->findAll();
 
-        //Pregunta por el gift
-
-            if ($this->count = 3) {
-                $gif = 'img/putoAmo3.gif';
-            } else if ($this->count = 1) {
-                $gif = 'img/putoAmo2.gif';
-            } else if ($this->count =2 ) {
-                $gif = 'img/putoAmo6.gif';
-            } else {
-                $gif = 'img/putoAmo.gif';
-            }
 
         return $this->render('Producto/index.html.twig',
             [
-                'productos' => $products, //le vamos a pasar un array
-                'gif' => $gif
+                'productos' => $products, //le vamos a pasar un
+                'gif' => $gifRedirect
+
             ]);
     }
 
@@ -56,7 +54,11 @@ class ProductoController extends Controller
      */
     public function updateAction(Request $request,$id)
     {
-        $this->count = 1;
+        $sesion = new Session();
+
+        $sesion->set('gif','img/putoAmo3.gif');
+
+        //$sesion->getFlashBag()->add('gif', 'img/putoAmo3.gif');
 
         $m = $this->getDoctrine()->getManager();
         $report = $m->getRepository('AppBundle:Product');
@@ -65,10 +67,14 @@ class ProductoController extends Controller
 
         $form = $this->createForm(ProductType::class, $p);
 
+
+
+
         return $this->render('Producto/form.html.twig',
             [
                 'form' => $form->createView(),
-                'action' => $this->generateUrl('app_product_createAction', ['id' => $id])
+                'action' => $this->generateUrl('app_producto_updateAction', ['id' => $id]),
+                'gif' => ''
             ]); //PONER UN GIF DIFERENTE
 
 
@@ -81,7 +87,8 @@ class ProductoController extends Controller
      */
     public function doUpdateAction(Request $request, $id)
     {
-        $this->count = 1;
+
+
         $m = $this->getDoctrine()->getManager();
         $report = $m->getRepository('AppBundle:Product');
         $p = $report->find($id);
@@ -94,16 +101,17 @@ class ProductoController extends Controller
             $m->flush();
             $this->addFlash('messages', 'Producto UPDATEAO PAYOOO');
 
+
             return $this->redirectToRoute('app_producto_index');
         }
 
-        $this->addFlash('messages','Tu eres tonto o que payaso? cara sardina');
+        $this->addFlash('messages','Tu eres tonto o que payaso? caranchoa');
 
         return $this->render(':Producto:form.html.twig',
             [
                 'form' => $form->createView(),
                 'action' => $this->generateUrl('app_producto_updateAction', ['id' => $id]),
-                'gif' => ''
+                'gif' => 'img/putoAmo5.gif'
 
             ]); // PASAR UN GIF
 
@@ -116,12 +124,19 @@ class ProductoController extends Controller
      */
 
     public function deleteAction ($producto) {
-        $this->count = 2;
+
+        $sesion = new Session();
+
+        $sesion->set('gif','img/putoAmo2.gif');
+
+        //$sesion->getFlashBag()->add('gif', 'img/putoAmo2.gif');
+
         $m = $this->getDoctrine()->getManager();
         $m->remove($producto);
         $m->flush();
 
         $this->addFlash('messages', 'Producto eliminao CHAACHO');
+        //$this->addFlash('gif', 'img/putoAmo2.gif');
 
         return $this->redirectToRoute('app_producto_index');
 
@@ -133,7 +148,7 @@ class ProductoController extends Controller
      */
 
     public function createAction (){
-        $this->count = 3;
+
         /*
         return $this->render('Producto/create.html.twig',
             [
@@ -151,7 +166,9 @@ class ProductoController extends Controller
         return $this->render('Producto/form.html.twig',
             [
                 'form' => $form->createView(),
-                'action' => $this->generateUrl('app_product_createAction')
+                'action' => $this->generateUrl('app_product_createAction'),
+                'gif' => ''
+
             ]
 
             //Con CreateVIEW generamos el form
@@ -166,6 +183,12 @@ class ProductoController extends Controller
      */
 
     public function doCreateAction (Request $request){
+
+        $sesion = new Session();
+
+        $sesion->set('gif','img/putoAmo6.gif');
+
+        //$sesion->getFlashBag()->add('gif', 'img/putoAmo6.gif');
         /*
         $m = $this->getDoctrine()->getManager();
         $report = $m->getRepository('AppBundle:Product');
@@ -187,7 +210,8 @@ class ProductoController extends Controller
             ]);
 
         */
-        $this->count = 3;
+
+
 
         $producto = new Product();
         $form = $this->createForm(ProductType::class, $producto);
@@ -200,6 +224,7 @@ class ProductoController extends Controller
             $m->flush();
 
             $this->addFlash('messages', 'Producto añadido TETE');
+            //$this->addFlash('gif', 'img/putoAmo6.gif');
 
             return $this->redirectToRoute('app_producto_index'); //para generar otravez la tabla principal
 
@@ -209,10 +234,11 @@ class ProductoController extends Controller
 
         return $this->render('Producto/form.html.twig',
             [
-                'for' => $form->createView(),
-                'action' => $this->generateUrl('app_product_createAction')
+                'form' => $form->createView(),
+                'action' => $this->generateUrl('app_product_createAction'),
+                'gif' => 'img/putoAmo7.gif'
 
-            ]); //PASARLE UN GIF DIFERENTE
+            ]);
 
 
     }
