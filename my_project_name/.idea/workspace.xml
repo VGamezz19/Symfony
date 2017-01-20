@@ -113,29 +113,25 @@
             <state relative-caret-position="54">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <marker date="1484937958868" expanded="true" signature="0:75" ph="imports: &lt;1 item&gt;" />
-                <marker date="1484937958868" expanded="true" signature="77:235" ph="framework: &lt;2 keys&gt;" />
-                <marker date="1484937958868" expanded="true" signature="92:194" ph="router: &lt;2 keys&gt;" />
-                <marker date="1484937958868" expanded="true" signature="118:160" ph="%kernel.ro..." />
-                <marker date="1484937958868" expanded="true" signature="190:194" ph="true" />
-                <marker date="1484937958868" expanded="true" signature="199:235" ph="profiler: {1 key}" />
-                <marker date="1484937958868" expanded="true" signature="228:233" ph="false" />
-                <marker date="1484937958868" expanded="true" signature="237:299" ph="web_profil...: &lt;2 keys&gt;" />
-                <marker date="1484937958868" expanded="true" signature="264:268" ph="true" />
-                <marker date="1484937958868" expanded="true" signature="294:299" ph="false" />
-                <marker date="1484937958868" expanded="true" signature="301:568" ph="monolog: &lt;1 key&gt;" />
-                <marker date="1484937958868" expanded="true" signature="314:568" ph="handlers: &lt;2 keys&gt;" />
-                <marker date="1484937958868" expanded="true" signature="332:481" ph="main: &lt;4 keys&gt;" />
-                <marker date="1484937958868" expanded="true" signature="356:362" ph="stream" />
-                <marker date="1484937958868" expanded="true" signature="381:425" ph="%kernel.lo..." />
-                <marker date="1484937958868" expanded="true" signature="445:450" ph="debug" />
-                <marker date="1484937958868" expanded="true" signature="463:481" ph="channels: [1 item]" />
-                <marker date="1484937958868" expanded="true" signature="474:480" ph="!event" />
-                <marker date="1484937958868" expanded="true" signature="490:568" ph="console: &lt;2 keys&gt;" />
-                <marker date="1484937958868" expanded="true" signature="519:526" ph="console" />
-                <marker date="1484937958868" expanded="true" signature="539:568" ph="channels: [2 items]" />
-                <marker date="1484937958868" expanded="true" signature="550:556" ph="!event" />
-                <marker date="1484937958868" expanded="true" signature="558:567" ph="!doctrine" />
+                <marker date="1484938840465" expanded="true" signature="77:235" ph="framework: &lt;2 keys&gt;" />
+                <marker date="1484938840465" expanded="true" signature="118:160" ph="%kernel.ro..." />
+                <marker date="1484938840465" expanded="true" signature="199:235" ph="profiler: {1 key}" />
+                <marker date="1484938840465" expanded="true" signature="228:233" ph="false" />
+                <marker date="1484938840465" expanded="true" signature="237:299" ph="web_profil...: &lt;2 keys&gt;" />
+                <marker date="1484938840465" expanded="true" signature="264:268" ph="true" />
+                <marker date="1484938840465" expanded="true" signature="294:299" ph="false" />
+                <marker date="1484938840465" expanded="true" signature="301:568" ph="monolog: &lt;1 key&gt;" />
+                <marker date="1484938840465" expanded="true" signature="314:568" ph="handlers: &lt;2 keys&gt;" />
+                <marker date="1484938840465" expanded="true" signature="332:481" ph="main: &lt;4 keys&gt;" />
+                <marker date="1484938840465" expanded="true" signature="356:362" ph="stream" />
+                <marker date="1484938840465" expanded="true" signature="381:425" ph="%kernel.lo..." />
+                <marker date="1484938840465" expanded="true" signature="463:481" ph="channels: [1 item]" />
+                <marker date="1484938840465" expanded="true" signature="474:480" ph="!event" />
+                <marker date="1484938840465" expanded="true" signature="490:568" ph="console: &lt;2 keys&gt;" />
+                <marker date="1484938840465" expanded="true" signature="519:526" ph="console" />
+                <marker date="1484938840465" expanded="true" signature="539:568" ph="channels: [2 items]" />
+                <marker date="1484938840465" expanded="true" signature="550:556" ph="!event" />
+                <marker date="1484938840465" expanded="true" signature="558:567" ph="!doctrine" />
               </folding>
             </state>
           </provider>
@@ -157,9 +153,8 @@
             <state relative-caret-position="90">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <marker date="1484937958868" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
-                <marker date="1484937958868" expanded="true" signature="27:41" ph="parameters..." />
-                <marker date="1484937958868" expanded="true" signature="95:107" ph="services.y..." />
+                <marker date="1484938840464" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
+                <marker date="1484938840464" expanded="true" signature="95:107" ph="services.y..." />
               </folding>
             </state>
           </provider>
@@ -168,8 +163,8 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state relative-caret-position="-54">
+              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -431,7 +426,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100216000" />
+    <option name="totallyTimeSpent" value="100327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="741" extended-state="1" />
@@ -744,9 +739,8 @@
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <marker date="1484937958868" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
-            <marker date="1484937958868" expanded="true" signature="27:41" ph="parameters..." />
-            <marker date="1484937958868" expanded="true" signature="95:107" ph="services.y..." />
+            <marker date="1484938840464" expanded="true" signature="0:109" ph="imports: &lt;3 items&gt;" />
+            <marker date="1484938840464" expanded="true" signature="95:107" ph="services.y..." />
           </folding>
         </state>
       </provider>
@@ -756,29 +750,25 @@
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1484937958868" expanded="true" signature="0:75" ph="imports: &lt;1 item&gt;" />
-            <marker date="1484937958868" expanded="true" signature="77:235" ph="framework: &lt;2 keys&gt;" />
-            <marker date="1484937958868" expanded="true" signature="92:194" ph="router: &lt;2 keys&gt;" />
-            <marker date="1484937958868" expanded="true" signature="118:160" ph="%kernel.ro..." />
-            <marker date="1484937958868" expanded="true" signature="190:194" ph="true" />
-            <marker date="1484937958868" expanded="true" signature="199:235" ph="profiler: {1 key}" />
-            <marker date="1484937958868" expanded="true" signature="228:233" ph="false" />
-            <marker date="1484937958868" expanded="true" signature="237:299" ph="web_profil...: &lt;2 keys&gt;" />
-            <marker date="1484937958868" expanded="true" signature="264:268" ph="true" />
-            <marker date="1484937958868" expanded="true" signature="294:299" ph="false" />
-            <marker date="1484937958868" expanded="true" signature="301:568" ph="monolog: &lt;1 key&gt;" />
-            <marker date="1484937958868" expanded="true" signature="314:568" ph="handlers: &lt;2 keys&gt;" />
-            <marker date="1484937958868" expanded="true" signature="332:481" ph="main: &lt;4 keys&gt;" />
-            <marker date="1484937958868" expanded="true" signature="356:362" ph="stream" />
-            <marker date="1484937958868" expanded="true" signature="381:425" ph="%kernel.lo..." />
-            <marker date="1484937958868" expanded="true" signature="445:450" ph="debug" />
-            <marker date="1484937958868" expanded="true" signature="463:481" ph="channels: [1 item]" />
-            <marker date="1484937958868" expanded="true" signature="474:480" ph="!event" />
-            <marker date="1484937958868" expanded="true" signature="490:568" ph="console: &lt;2 keys&gt;" />
-            <marker date="1484937958868" expanded="true" signature="519:526" ph="console" />
-            <marker date="1484937958868" expanded="true" signature="539:568" ph="channels: [2 items]" />
-            <marker date="1484937958868" expanded="true" signature="550:556" ph="!event" />
-            <marker date="1484937958868" expanded="true" signature="558:567" ph="!doctrine" />
+            <marker date="1484938840465" expanded="true" signature="77:235" ph="framework: &lt;2 keys&gt;" />
+            <marker date="1484938840465" expanded="true" signature="118:160" ph="%kernel.ro..." />
+            <marker date="1484938840465" expanded="true" signature="199:235" ph="profiler: {1 key}" />
+            <marker date="1484938840465" expanded="true" signature="228:233" ph="false" />
+            <marker date="1484938840465" expanded="true" signature="237:299" ph="web_profil...: &lt;2 keys&gt;" />
+            <marker date="1484938840465" expanded="true" signature="264:268" ph="true" />
+            <marker date="1484938840465" expanded="true" signature="294:299" ph="false" />
+            <marker date="1484938840465" expanded="true" signature="301:568" ph="monolog: &lt;1 key&gt;" />
+            <marker date="1484938840465" expanded="true" signature="314:568" ph="handlers: &lt;2 keys&gt;" />
+            <marker date="1484938840465" expanded="true" signature="332:481" ph="main: &lt;4 keys&gt;" />
+            <marker date="1484938840465" expanded="true" signature="356:362" ph="stream" />
+            <marker date="1484938840465" expanded="true" signature="381:425" ph="%kernel.lo..." />
+            <marker date="1484938840465" expanded="true" signature="463:481" ph="channels: [1 item]" />
+            <marker date="1484938840465" expanded="true" signature="474:480" ph="!event" />
+            <marker date="1484938840465" expanded="true" signature="490:568" ph="console: &lt;2 keys&gt;" />
+            <marker date="1484938840465" expanded="true" signature="519:526" ph="console" />
+            <marker date="1484938840465" expanded="true" signature="539:568" ph="channels: [2 items]" />
+            <marker date="1484938840465" expanded="true" signature="550:556" ph="!event" />
+            <marker date="1484938840465" expanded="true" signature="558:567" ph="!doctrine" />
           </folding>
         </state>
       </provider>
@@ -793,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        <state relative-caret-position="-54">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
           <folding />
         </state>
       </provider>
