@@ -2,77 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a172facd-e819-4904-9461-0b421173b840" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/Form.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/AppCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/AppKernel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/Calculator/Form.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/Calculator/Index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/Calculator/Result.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/CalculatorRacional/Form.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/CalculatorRacional/Index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/CalculatorRacional/Result.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/Index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/Producto/form.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/Producto/index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/base.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/default/index.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/Resources/views/default/vista1.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/config.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/config_dev.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/config_prod.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/config_test.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/parameters.yml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/routing.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/routing_dev.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/security.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/app/config/services.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/bin/console" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/bin/symfony_requirements" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/AppBundle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Controller/CalculatorController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Controller/CalculatorRacionalController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Controller/DefaultController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Controller/ProductoController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Controller/UsuarioController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Entity/Product.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Entity/Usuario.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Form/ProductType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Repository/ProductRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Repository/UsuarioRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Service/Calculator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Service/CalculatorRacional.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/src/AppBundle/Service/Racional.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/tests/AppBundle/Controller/DefaultControllerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/var/SymfonyRequirements.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/var/logs/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/var/sessions/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/app.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/app_dev.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/css/Calculator_viwes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/css/producto_tabla.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/img/putoAmo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/img/putoAmo2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/img/putoAmo3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/img/putoAmo4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/img/putoAmo5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/img/putoAmo6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/img/putoAmo7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Victor.Gamez_CRUD_Symfony/web/robots.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
     </list>
     <ignored path="my_project_name.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,9 +61,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,11 +69,9 @@
       <file leaf-file-name="gfd.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/gfd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
+            <state relative-caret-position="972">
               <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-              <folding>
-                <element signature="e#36#68#0#PHP" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,7 +79,7 @@
       <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1656">
+            <state relative-caret-position="90">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="54" />
               <folding />
             </state>
@@ -162,14 +89,9 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/gfd/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="414">
               <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="true" />
-                <element signature="e#886#900#0#Twig" expanded="true" />
-                <element signature="e#983#997#0#Twig" expanded="true" />
-                <element signature="e#1151#1165#0#Twig" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,32 +99,29 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/Producto/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="504">
               <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gfdController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gfdController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/gfdController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
+            <state relative-caret-position="18">
               <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-              <folding>
-                <element signature="e#898#919#0#PHP" expanded="true" />
-                <element signature="e#1252#1272#0#PHP" expanded="true" />
-                <element signature="e#1382#1404#1#PHP" expanded="true" />
-                <element signature="e#2066#2081#1#PHP" expanded="true" />
-                <element signature="e#2171#2191#0#PHP" expanded="true" />
-                <element signature="e#2301#2323#1#PHP" expanded="true" />
-                <element signature="e#2845#2865#0#PHP" expanded="true" />
-                <element signature="e#2975#2997#0#PHP" expanded="true" />
-                <element signature="e#3670#3685#1#PHP" expanded="true" />
-                <element signature="e#3781#3801#0#PHP" expanded="true" />
-                <element signature="e#3911#3933#0#PHP" expanded="true" />
-                <element signature="e#4528#4543#1#PHP" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,9 +131,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding>
-                <element signature="e#12#28#0#Twig" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -262,7 +179,6 @@
         <option value="$PROJECT_DIR$/app/Resources/views/Calculator/Index.html.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/Index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Usuario.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/Producto/Index.html.twig" />
@@ -282,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/gfd.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/gfd/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/gfdController.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
       </list>
     </option>
   </component>
@@ -326,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -483,9 +399,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_project_name" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_project_name" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,23 +539,24 @@
       <workItem from="1484670469983" duration="1623000" />
       <workItem from="1484918182194" duration="1569000" />
       <workItem from="1484922396091" duration="5346000" />
+      <workItem from="1484928908506" duration="225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95177000" />
+    <option name="totallyTimeSpent" value="95402000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="741" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1366" height="741" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26363635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26818183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10662359" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2621212" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41439393" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41439393" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -816,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,9 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding>
-            <element signature="e#34#63#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -891,9 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#34#59#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,6 +842,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/gfd/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/gfd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/gfd/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/Producto/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/gfdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -923,50 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/gfd/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -976,66 +934,6 @@
         <state relative-caret-position="216">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1656">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/gfd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-          <folding>
-            <element signature="e#36#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/gfd/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="true" />
-            <element signature="e#886#900#0#Twig" expanded="true" />
-            <element signature="e#983#997#0#Twig" expanded="true" />
-            <element signature="e#1151#1165#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/Producto/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/gfdController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <element signature="e#898#919#0#PHP" expanded="true" />
-            <element signature="e#1252#1272#0#PHP" expanded="true" />
-            <element signature="e#1382#1404#1#PHP" expanded="true" />
-            <element signature="e#2066#2081#1#PHP" expanded="true" />
-            <element signature="e#2171#2191#0#PHP" expanded="true" />
-            <element signature="e#2301#2323#1#PHP" expanded="true" />
-            <element signature="e#2845#2865#0#PHP" expanded="true" />
-            <element signature="e#2975#2997#0#PHP" expanded="true" />
-            <element signature="e#3670#3685#1#PHP" expanded="true" />
-            <element signature="e#3781#3801#0#PHP" expanded="true" />
-            <element signature="e#3911#3933#0#PHP" expanded="true" />
-            <element signature="e#4528#4543#1#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
