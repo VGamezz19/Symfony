@@ -1,0 +1,49 @@
+{% extends '::base.html.twig' %}
+
+{% block title %} Productos{% endblock %}
+{% block body %}
+    <link rel="stylesheet" href="{{ asset('css/producto_tabla.css') }}" />
+
+    <form>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>precio</th>
+                <th>Fecha de creacion</th>
+                <th>Fecha Update</th>
+                <th>Actualizar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+    {% for producto in productos %}
+            <tbody>
+                <tr>
+                    <th>{{ producto.id}}</th>
+                    <th>{{ producto.name}}</th>
+                    <th>{{ producto.description }}</th>
+                    <th>{{ producto.price}} € </th>
+                    <th>{{ producto.createdAt|date("d/m/y H:i:s") }}</th>
+                    <th>{{ producto.updatedAt|date("d/m/y H:i:s")}} </th>
+                    <th><a href="{{ path('app_product_update', {'id': producto.id}) }}"> UPDATE</a> </th>
+                    <th><a href="{{ path('app_product_delete', {'id': producto.id}) }}"> DELETE</a></th>
+                </tr>
+            </tbody>
+    {% endfor %}
+    </table>
+    </form>
+
+
+    <form action="{{ path('app_product_create') }}" method="post">
+        <button value="CREATE" id="boton">
+            <h1>CREATE</h1>
+        </button>
+
+        <img id = "imagen"src="{{ asset(gif) }}" />
+    </form>
+
+
+
+{% endblock %}

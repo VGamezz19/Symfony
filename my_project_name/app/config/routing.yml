@@ -7,3 +7,8 @@ app.product:
     resource: "@AppBundle/Controller/ProductoController.php"
     type:     annotation
     prefix: productos
+
+app.gfd:
+    resource: "@AppBundle/Controller/gfdController.php"
+    type:     annotation
+    prefix: formularioExamen

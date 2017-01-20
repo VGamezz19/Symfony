@@ -1,0 +1,31 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}{{ parent() }} Form{% endblock %}
+{% block body %}
+    <!-- http://stackoverflow.com/questions/18848870/how-to-display-all-form-error-at-one-place -->
+    <link rel="stylesheet" href="{{ asset('css/producto_tabla.css') }}" />
+
+    <div>
+       <form method="post" action="{{ action }}" novalidate="novalidate">
+           <div>
+
+               {{ dump(form.vars.value) }}
+
+               <ul>
+                   {%  for error in form.vars.errors %}
+                        <li>{{ error.message }}</li>
+                   {% endfor %}
+               </ul>
+           </div>
+           <div>{{ form_errors(form.usrger) }} {{ form_label(form.usrger) }}: {{ form_widget(form.usrger) }}</div>
+           <div>{{ form_errors(form.prigrid) }} {{ form_label(form.prigrid) }}: {{ form_widget(form.prigrid)  }}</div>
+           {{ form_rest(form) }}
+
+           <button value="CREATE" id="boton">
+               <h1>Confirmar</h1>
+           </button>
+
+           <img id = "imagen"src="{{ asset(gif) }}" />
+       </form>
+    </div>
+{% endblock %}
