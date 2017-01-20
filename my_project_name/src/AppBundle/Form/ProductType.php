@@ -31,8 +31,8 @@ class ProductType extends AbstractType
         ]);
     }
 
-    public function getName()
+    /*public function getName()
     {
         return 'app_bundle_product_type';
-    }
+    } */
 }

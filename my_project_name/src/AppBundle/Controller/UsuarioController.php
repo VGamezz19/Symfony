@@ -14,6 +14,7 @@ class UsuarioController extends Controller
      */
     public function indexAction()
     {
+        /*
         $m = $this->getDoctrine()->getManager(); //hay que hacerlo al principio para recuperar
                                                     //el manager
 
@@ -48,6 +49,8 @@ class UsuarioController extends Controller
         $m->persist($user3);
 
         $m->flush(); //insertara en la base de datos
+
+        */
 
         return $this->render('::Index.html.twig', [
             'titulo' => 'Mi página web',

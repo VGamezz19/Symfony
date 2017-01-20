@@ -41,7 +41,7 @@ class ProductoController extends Controller
 
         return $this->render('Producto/index.html.twig',
             [
-                'productos' => $products, //le vamos a pasar un
+                'productos' => $products, //le vamos a pasar un objeto
                 'gif' => $gifRedirect
 
             ]);
