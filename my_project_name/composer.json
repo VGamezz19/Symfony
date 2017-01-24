@@ -36,9 +36,7 @@
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
     ],
-    "pre-update-cmd": [
-      "@php artisan clear-compiled"
-    ],
+    
     "post-install-cmd": [
       "@symfony-scripts",
       "Illuminate\\Foundation\\ComposerScripts::postInstall",
