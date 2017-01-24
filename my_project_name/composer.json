@@ -36,16 +36,11 @@
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
     ],
-    
     "post-install-cmd": [
-      "@symfony-scripts",
-      "Illuminate\\Foundation\\ComposerScripts::postInstall",
-      "php artisan optimize"
+      "@symfony-scripts"
     ],
     "post-update-cmd": [
-      "@symfony-scripts",
-      "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-      "php artisan optimize"
+      "@symfony-scripts"
     ]
   },
   "config": {
@@ -68,7 +63,6 @@
     }
   }
 }
-
 
 
 
